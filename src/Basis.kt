@@ -1,4 +1,4 @@
-
+import sun.rmi.runtime.Log
 
 //常量（使用 val 关键字声明 ）
 val a: Int = 1
@@ -55,5 +55,11 @@ fun string(){
     val a = "abcd"
     val str = "$a.lenth is ${a.length}"
     println(str)
+}
+
+fun stringTrimMargin(){
+    println(""" sfasdfad
+        | shosh
+    """.trimMargin())
 }
 
