@@ -20,7 +20,7 @@ fun sum(a: Int, b: Int): Int {
 
 fun sum1(a: Int, b: Int) = a + b
 
-public fun printSum(a: Int, b: Int) {
+fun printSum(a: Int, b: Int) {
     println(a + b)
 }
 
